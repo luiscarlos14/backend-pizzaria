@@ -53,6 +53,19 @@ Inicie o servidor
 | `password` | `string` | **Obrigatório** |
 
 
+#### Buscar usuário
+```http
+  GET /me
+```
+##### Headers | Authorization: Bearer [access_token]
+
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `email` | `string` | **Obrigatório** |
+| `password` | `string` | **Obrigatório** |
+
+
 ## Aprendizados
 
 Projeto em desenvolvimento...
