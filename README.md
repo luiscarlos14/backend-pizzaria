@@ -60,10 +60,19 @@ Inicie o servidor
 ##### Headers | Authorization: Bearer [access_token]
 
 
+#### Cadastrar Categoria
+```http
+  POST /category
+```
 | Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `email` | `string` | **Obrigatório** |
-| `password` | `string` | **Obrigatório** |
+| `name` | `string` | **Obrigatório** |
+
+#### Listar Categorias
+```http
+  GET /category
+```
+##### Headers | Authorization: Bearer [access_token]
 
 
 ## Aprendizados
