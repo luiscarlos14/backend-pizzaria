@@ -64,6 +64,8 @@ Inicie o servidor
 ```http
   POST /category
 ```
+##### Headers | Authorization: Bearer [access_token]
+
 | Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
 | `name` | `string` | **Obrigatório** |
@@ -73,6 +75,21 @@ Inicie o servidor
   GET /category
 ```
 ##### Headers | Authorization: Bearer [access_token]
+
+#### Cadastrar Produto
+```http
+  POST /product
+```
+##### Headers | Authorization: Bearer [access_token]
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `name` | `string` | **Obrigatório** |
+| `price` | `string` | **Obrigatório** |
+| `description` | `string` | **Obrigatório** |
+| `file` | `file` | **Obrigatório** |
+| `category_id` | `string` | **Obrigatório** |
+
 
 
 ## Aprendizados
